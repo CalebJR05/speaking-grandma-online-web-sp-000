@@ -1,11 +1,11 @@
 def speak_to_grandma(phrase)
   
   if 
-    phrase == string.downcase?
+    phrase == String.downcase?
     puts "HUH?! SPEAK UP, SONNY!"
     
   elsif 
-    phrase == string.upcase?
+    phrase == String.upcase?
     puts "NO, NOT SINCE 1938!"
     
   else 
